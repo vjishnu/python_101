@@ -7,7 +7,7 @@ count = len(arguments)
 
 from sys import argv
 script,first,second,third=argv
-
+print(" Total no of arguments in command line is : ",count)
 print("The script is called : " ,script)
 print("The first variable is called : " ,first)
 print("The second variable is called : " ,second)
