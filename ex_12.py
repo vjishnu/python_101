@@ -12,5 +12,10 @@ print("The script is called : " ,script)
 print("The first variable is called : " ,first)
 print("The second variable is called : " ,second)
 print("The thrid variable is called : " ,third)
-
+if arguments > 0:
+    count = len(arguments)
+    print("The no. of arguments is {}".format(count))
+elif arguments < 0:
+     print("There are no arguments")
+    
 

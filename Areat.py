@@ -1,3 +1,10 @@
+#Enter the base5
+#Enter the height4
+#Area of the Triangle is  10.0
+#Enter the first2
+#Enter the height3
+#Enter the height4
+#Area of the Triangle is  2.9047375096555625
 
 a = int(input("Enter the base"))
 b= int(input("Enter the height"))
