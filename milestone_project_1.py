@@ -77,4 +77,21 @@ fact = math.factorial(num)
 print(f"The factorial of the given number is {fact}.")
 
 print(".......................")
+# Print * in a Traingle pattern
+'''Read no of rows from user and print a triangle pattern using * character'''
+print("....Print * in a Traingle pattern....")
+
+num = int(input("Enter the numbr of rows"))
+for i in range(0,num):
+    for j in range(0,num-i-1):
+        print(end=" ")
+    for j in range(0,i+1):
+        print("*",end=" ")
+    print()
+'''Enter the numbr of rows5
+    *
+   * *
+  * * *
+ * * * *
+* * * * *  '''
 
