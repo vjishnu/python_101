@@ -1,14 +1,3 @@
-EX0- SET UP 
-EX1 – print statement
-EX2 – comments and pound 
-
-the purpose of this setup is so you can do four things very reliably while you work on the exercises: 
-1.	Write exercises using your text editor, gedit on Linux, TextWrangler on OSX, or Notepad++ on Windows.  
-2.	Run the exercises you wrote.  
-3.	Fix them when they are broken.  
-4.	Repeat.  
-
-
 EX0
 Windows 
 Go to http://notepad-plus-plus.org with your browser, get the Notepad++ text editor, and install it. You do not need to be the administrator to do this.  
@@ -43,5 +32,4 @@ Run the following commands to configure your Git username and email using the fo
 $ git config --global user.name "Emma Paris"  $ git config --global user.email "eparis@atlassian.com"
 Optional: Install the Git credential helper on Windows
 Bitbucket supports pushing and pulling over HTTP to your remote Git repositories on Bitbucket. Every time you interact with the remote repository, you must supply a username/password combination. You can store these credentials, instead of supplying the combination every time, with the Git Credential Manager for Windows.
-
 
