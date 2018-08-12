@@ -1,4 +1,4 @@
-                                                                              # ....vowels in a String....
+                      # ....vowels in a String....
 """Read a string from user and count the number of vowels in the given String"""        
 print("...vowels in a string....")
 my_string = input("Enter the string : ")
@@ -17,11 +17,10 @@ print(f"The number of vowels in the given string is {count}.")
         Enter the string : i like apple
    output :
         The number of vowels in the given String is 5.'''
-print("............................")
+print(".........................")
 
-
-                                                                             # ....Reverse of a string....
-
+                    # ....Reverse of a string....
+   
 """Read a string from user and reverse and print the string."""
 print("...Reverse of a string....")
 string = input("Enter the string : ")
@@ -37,7 +36,7 @@ print("The reversed string is  {} ".format(reverse))
              The reversed string is nohtyp evol i """
 print("............................")
 
-                                                                            # ....Palindrome String....
+                     # ....Palindrome String....
 
 """Read a string from user and check whether it is palindrome or not"""
 print("....palindrome sequence....")
@@ -51,7 +50,7 @@ else:
 print("............................")
 
 
-                                                                          # BMI calculator
+                        # BMI calculator
 
 """Read height and weight from user and calculate the Body Mass Index of the user."""
 print("....BMI CALCULATOR....")
@@ -69,7 +68,7 @@ print("..................")
              Your body mass index is 18.51851851851852.
            .................. '''
 
-                                                                          # Factorial of a Number
+                    # Factorial of a Number
 """Read a number from user and find its factorial."""
 print("....Factorial of a number....")
 num = int(input("Enter the number"))
@@ -99,7 +98,7 @@ print(f"The factorial of the given number is {fact}.")
 print(".......................")
 
 
-                                                                          #  Print * in a Traingle pattern
+                   #  Print * in a Traingle pattern
 '''Read no of rows from user and print a triangle pattern using * character'''
 print("....Print * in a Traingle pattern....")
 num = int(input("Enter the numbr of rows : "))
@@ -120,7 +119,7 @@ for i in range(0,num):
 * * * * *  
 ..................'''
 
-                                                                     # sort a string in alphabetical order
+                  # sort a string in alphabetical order
 '''read a string and sort it in alphabetical order.'''
 print("....sort a string in alphabetical order....")
 s1=input("Enter the string to sort in alphabetic order :")
@@ -134,7 +133,7 @@ print("...........................")
 ...........................'''
 
 
-                                                                  # remove punctuations from the given string
+              # remove punctuations from the given string
 
 ''' Read a string from user with punctuations and remove all the punctuations and print it.'''
 print("....Removing punctuations from the String....")
