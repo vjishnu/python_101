@@ -110,3 +110,34 @@ output: ehilnooptvy
 print("...........................")
 
 
+#  remove punctuations from the given string
+
+''' Read a string from user with punctuations and remove all the punctuations and print it.'''
+print("....Removing punctuations from the String....")
+print("Press 'x' for exit :")
+string = input("Enter any string to remove all punctuations of it : \n")
+
+if string == 'x':#if user entered 'x' , then it will exit.
+    exit()
+else:
+    newstr = string # assign the string to newstr
+    print("\n Remove all punctuations from the string...\n")
+    punctuations = '''!()-[]{};:'"\,<>./?@#$%^&*_~''' # common punctuations in a string
+    for x in string.lower():
+        if x in punctuations:
+            newstr = newstr.replace(x,"")
+print(f"New string after removing all punctuations is \n : \n {newstr}.")
+print(".........................")
+
+'''input:
+....Removing punctuations from the String....
+Press 'x' for exit :
+Enter any string to remove all punctuations of it :
+hshfiuhdiogihhjh^&^^%^$$#Hhvgh&*^&^%$#>>......"";
+
+ Remove all punctuations from the string...
+
+New string after removing all punctuations is
+output: 
+ hshfiuhdiogihhjhHhvgh.
+......................... '''
