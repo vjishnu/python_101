@@ -5,4 +5,5 @@ print(stack)
 item=str(input("Enter the item to append"))
 #after appending to the stack
 print("The item appended is {0}".format(item))
-print(stack.append())
+print(stack.append(item))
+print(stack)
