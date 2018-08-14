@@ -3,6 +3,6 @@ stack=['dog','cat','parrot'] # list as stack
 print(stack)
 #entering item to append
 item=str(input("Enter the item to append"))
-#after appending
+#after appending to the stack
 print("The item appended is {0}".format(item))
 print(stack.append())
